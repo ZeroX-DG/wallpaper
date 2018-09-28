@@ -4,21 +4,19 @@
 
 Works on macOS, Linux, and Windows.
 
-
 ## Install
 
 ```
-$ npm install wallpaper
+$ npm install @zerox-dg/wallpaper
 ```
-
 
 ## Usage
 
 ```js
-const wallpaper = require('wallpaper');
+const wallpaper = require("wallpaper");
 
-wallpaper.set('unicorn.jpg').then(() => {
-	console.log('done');
+wallpaper.set("unicorn.jpg").then(() => {
+	console.log("done");
 });
 
 wallpaper.get().then(imagePath => {
@@ -26,7 +24,6 @@ wallpaper.get().then(imagePath => {
 	//=> '/Users/sindresorhus/unicorn.jpg'
 });
 ```
-
 
 ## API
 
@@ -56,13 +53,11 @@ Default: Current system setting
 
 Scaling method. Only available on macOS.
 
-
 ## Related
 
 - [wallpaper-cli](https://github.com/sindresorhus/wallpaper-cli) - CLI for this module
 - [macos-wallpaper](https://github.com/sindresorhus/macos-wallpaper) - macOS binary used in this module
 - [win-wallpaper](https://github.com/sindresorhus/win-wallpaper) - Windows binary used in this module
-
 
 ## License
 
