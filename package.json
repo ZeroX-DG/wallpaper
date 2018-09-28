@@ -1,9 +1,9 @@
 {
-	"name": "wallpaper",
+	"name": "@zerox-dg/wallpaper",
 	"version": "3.0.0",
 	"description": "Get or set the desktop wallpaper",
 	"license": "MIT",
-	"repository": "sindresorhus/wallpaper",
+	"repository": "ZeroX-DG/wallpaper",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
